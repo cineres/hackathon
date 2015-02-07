@@ -8033,176 +8033,118 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../compass/sass/_style-home.scss */
+/* line 3, ../compass/sass/_style-home.scss */
 .main-jumbo {
-  background: url("/wp-content/themes/sample/assets/css/images/jumbotron-grass.jpg");
+  background: url("/wp-content/themes/sample/assets/css/images/four-teas.jpg") no-repeat;
+  background-size: 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 600px;
-}
-
-/* line 7, ../compass/sass/_style-home.scss */
-.title {
-  position: relative;
-  top: 70%;
-  color: white;
+  margin-bottom: 0px;
 }
 
 /* line 12, ../compass/sass/_style-home.scss */
-.navbar-default .navbar-nav > .current > a, .navbar-default .navbar-nav > .current > a:hover, .navbar-default .navbar-nav > .current > a:focus {
-  color: red;
+.main {
+  padding-top: 75px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3em;
 }
 
-/* line 16, ../compass/sass/_style-home.scss */
-body {
-  margin: 0;
-  min-width: 980px;
-  padding: 0;
-}
-
-/* line 22, ../compass/sass/_style-home.scss */
-p {
-  margin: 0 0 20px 0;
-}
-
-/* line 26, ../compass/sass/_style-home.scss */
-p, ul {
-  font-family: "Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size-adjust: 0.488;
-  font-weight: 200;
-  font-style: normal;
-}
-
-/* line 33, ../compass/sass/_style-home.scss */
-img {
-  border: 0;
-}
-
-/* line 37, ../compass/sass/_style-home.scss */
-h1, #pixels {
-  font-family: "Museo 900", Verdana, serif;
-  font-size-adjust: 0.40;
-  font-weight: 700;
-  font-style: normal;
-}
-
-/* line 44, ../compass/sass/_style-home.scss */
-h2 {
-  font-family: "Beau Sans Pro Book", Verdana, sans-serif;
-  font-size-adjust: 0.531;
-  font-weight: 500;
-  font-style: normal;
-}
-
-/* line 51, ../compass/sass/_style-home.scss */
-#header h1, #pixels {
-  color: #48941A;
-}
-
-/* line 55, ../compass/sass/_style-home.scss */
-.float-left {
-  float: left;
-  margin: 0 0 0 20px;
-}
-
-/* line 60, ../compass/sass/_style-home.scss */
-.float-right {
-  float: right;
-  margin: 0 20px 0 0;
-}
-
-/* line 65, ../compass/sass/_style-home.scss */
-.center {
-  font-size: 2.5em;
-  padding: 80px 0 0 0;
-  text-align: center;
-}
-
-/* line 71, ../compass/sass/_style-home.scss */
-#nav {
-  list-style: none;
-  position: fixed;
-  right: 20px;
-}
-
-/* line 77, ../compass/sass/_style-home.scss */
-#nav li {
-  margin: 0 0 15px 0;
-}
-
-/* line 81, ../compass/sass/_style-home.scss */
-#header, #intro, #second {
-  width: 100%;
-}
-
-/* line 85, ../compass/sass/_style-home.scss */
-#intro {
-  background: url("/wp-content/themes/sample/assets/css/images/firstBG.jpg") 50% 0 no-repeat fixed;
-  color: white;
-  height: 600px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-/* line 93, ../compass/sass/_style-home.scss */
-#second {
-  background: url("/wp-content/themes/sample/assets/css/images/secondBG.jpg") 50% 0 no-repeat fixed;
-  color: white;
-  height: 1300px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 0;
-}
-
-/* line 102, ../compass/sass/_style-home.scss */
-#second .bg {
-  background: url("/wp-content/themes/sample/assets/css/images/trainers.png") 50% 0 no-repeat fixed;
-  height: 1300px;
-  margin: 0 auto;
-  padding: 0;
-  position: absolute;
-  width: 900px;
-  z-index: 200;
-}
-
-/* line 112, ../compass/sass/_style-home.scss */
-#third {
-  background: url("/wp-content/themes/sample/assets/css/images/thirdBG.jpg") 50% 0 no-repeat fixed;
-  color: white;
-  height: 650px;
-  padding: 100px 0 0 0;
-}
-
-/* line 119, ../compass/sass/_style-home.scss */
-#fifth {
-  background: #ccc;
-  height: 400px;
-  margin: 0 auto;
-  padding: 40px 0 0 0;
-}
-
-/* line 126, ../compass/sass/_style-home.scss */
-.story {
-  margin: 0 auto;
-  min-width: 980px;
-  overflow: auto;
-  width: 980px;
-}
-
-/* line 133, ../compass/sass/_style-home.scss */
-.story .float-left, .story .float-right {
-  padding: 100px 0 0 0;
+/* line 17, ../compass/sass/_style-home.scss */
+#banner-img {
   position: relative;
-  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  top: 10%;
 }
 
-/* line 138, ../compass/sass/_style-home.scss */
+/* line 24, ../compass/sass/_style-home.scss */
+.title {
+  position: relative;
+  top: 30%;
+  color: black;
+}
+
+/* line 29, ../compass/sass/_style-home.scss */
+.navbar-default .navbar-nav > .current > a, .navbar-default .navbar-nav > .current > a:hover, .navbar-default .navbar-nav > .current > a:focus {
+  color: #e15f35;
+}
+
+/* line 32, ../compass/sass/_style-home.scss */
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-family: 'League Script', cursive;
+  font-weight: 700;
+}
+
+/* line 39, ../compass/sass/_style-home.scss */
+h2 {
+  font-family: 'League Script', cursive;
+  font-weight: 700;
+  color: #e15f35;
+}
+
+/* line 47, ../compass/sass/_style-home.scss */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* line 54, ../compass/sass/_style-home.scss */
+.bar {
+  height: 25px;
+  background-color: #f2e274;
+}
+
+/* line 59, ../compass/sass/_style-home.scss */
+#first-section {
+  background: url("/wp-content/themes/sample/assets/css/images/tea-bg.png") 100% 100% no-repeat;
+  color: black;
+  height: 400px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 65, ../compass/sass/_style-home.scss */
+#first-section h2 {
+  font-size: 50px;
+}
+
+/* line 69, ../compass/sass/_style-home.scss */
+#second-section {
+  background-color: #4b7b77;
+  color: white;
+  height: 150px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 75, ../compass/sass/_style-home.scss */
+#second-section h3 {
+  padding-top: 25px;
+}
+
+/* line 80, ../compass/sass/_style-home.scss */
 .tile {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+/* line 83, ../compass/sass/_style-home.scss */
+.tile span {
+  font-size: 100px;
+  color: #e15f35;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-/* line 143, ../compass/sass/_style-home.scss */
+/* line 94, ../compass/sass/_style-home.scss */
 #footer {
   color: white;
   background-color: #323232;
