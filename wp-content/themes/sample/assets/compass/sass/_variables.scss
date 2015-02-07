@@ -1,0 +1,30 @@
+$icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+@import '../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+//@import 'compass/css3';
+
+$screen-xx-min: 351px;
+$screen-xs-min: 481px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1201px;
+
+$screen-xx: 350px;
+$screen-xs: 480px;
+$screen-sm: 767px;
+$screen-md: 991px;
+$screen-lg: 1200px;
+
+$lightgray: #e0e1e2;
+$purple: #481049;
+$darkgray: #707070;
+$mediumgray: #d1d2d4;
+$blue: #0095ff;
+$green: #508200;
+$red: #b40000;
+$orange: #f7941e;
+$dategray: #919191;
+$lightestgray: #e7e7e8;
+$yellow: #faa61a;
+$backgroundgray: #e7e7e8;
+$gold: #ffc300;
